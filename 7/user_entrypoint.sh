@@ -8,6 +8,6 @@ if [[ ! -z ${HOST_USER_ID+x} &&  ! -z ${HOST_GROUP_ID+x} ]] ; then
 #   su -l user -c $@
    exit 0
 else
- exec $@
+ exec "$@"
 fi
 
