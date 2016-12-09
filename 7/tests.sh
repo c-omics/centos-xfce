@@ -6,6 +6,9 @@
 # test ############
 uname -a
 cat /etc/os-release
+ansible --version
+git --version
+gcc --version
 ###################
 
 
