@@ -19,6 +19,7 @@ RUN yum install -y epel-release ; \
                    sudo \
                    which ; \
     yum update  -y ; \
+    yum clean all ; \
     curl -o /usr/local/sbin/gosu -L https://github.com/tianon/gosu/releases/download/1.9/gosu-amd64 ; \
     chmod 0755 /usr/local/sbin/gosu
 
