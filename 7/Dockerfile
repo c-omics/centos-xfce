@@ -10,6 +10,7 @@ MAINTAINER Ian Merrick <MerrickI@Cardiff.ac.uk>
 ##############################################################
 
 RUN yum install -y epel-release ; \
+    yum update -y ; \
     yum install -y ansible \
                    git     \
                    gcc     \
@@ -18,7 +19,6 @@ RUN yum install -y epel-release ; \
                    net-tools \
                    sudo \
                    which ; \
-    yum update  -y ; \
     yum clean all ; \
     curl -o /usr/local/sbin/gosu -L https://github.com/tianon/gosu/releases/download/1.9/gosu-amd64 ; \
     chmod 0755 /usr/local/sbin/gosu
