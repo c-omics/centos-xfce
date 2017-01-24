@@ -9,8 +9,8 @@ MAINTAINER Ian Merrick <MerrickI@Cardiff.ac.uk>
 # Description:          Base Centos7
 ##############################################################
 
-RUN yum install -y epel-release ; \
-    yum update -y ; \
+RUN yum update -y ; \ 
+    yum install -y epel-release ; \
     yum install -y ansible \
                    git     \
                    gcc     \
