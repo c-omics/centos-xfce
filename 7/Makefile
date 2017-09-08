@@ -1,6 +1,6 @@
 REGISTRY = bigr.bios.cf.ac.uk:4567
 TAG=7
-NAME = comics/centos
+NAME = comics/centos-xfce
 IMAGE = $(REGISTRY)/$(NAME)
 
 

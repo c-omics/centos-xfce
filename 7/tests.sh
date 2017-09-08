@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# docker run -i bigr.bios.cf.ac.uk:4567/comics/centos bash < tests.sh
+# docker run -i bigr.bios.cf.ac.uk:4567/comics/centos-xfce bash < tests.sh
 #
 
 # test ############
